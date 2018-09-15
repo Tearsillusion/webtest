@@ -29,6 +29,7 @@
                 <li v-for='item in history'>
                     <div class="webtest_history_list" v-for='item in item.list'>
                         <span><img :src="item.src" height="300" width="300" alt=""></span>
+                        <div style='height: 0.1rem;background: white;'></div>
                         <div class="webtest_history_list_text">
                             <h5>{{item.time}}</h5>
                             <p>{{item.content}}</p>

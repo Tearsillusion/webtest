@@ -9,6 +9,9 @@ a{
     text-decoration: none;
     color: black;
 }
+li{
+    list-style: none;
+}
 /*首页*/
 .webtestIndex{
     width: 100%;
@@ -371,20 +374,24 @@ a{
 @media (min-width: 768px){
     html{
         width: 768px;
-        height: 100%;
+
         margin: 0 auto;
         border:1px solid #eee;
-        box-shadow: 0.02rem 0.02rem 0.2rem 0.1rem #eee;
+        box-shadow: 0.04rem 0.04rem 0.4rem 0.2rem #eee;
     }
 
-
     .webtest footer{
-         width: 768px;
+        width: 768px;
         left: 50%;
         -webkit-transform: transLate(-50%,0);
         -ms-transform: transLate(-50%,0);
         -o-transform: transLate(-50%,0);
         transform: transLate(-50%,0);
+
+    }
+    .present nav{
+        width: 768px;
+        top: 0;
     }
 }
 /*介绍*/
@@ -459,6 +466,7 @@ a{
 .present nav{
     background:#494A5F;
     position: fixed;
+    top: 0;
 }
 .present_title{
     color: white;

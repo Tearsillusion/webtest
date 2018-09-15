@@ -492,10 +492,12 @@ li{
 }
 .webtest_history_list_text{
     font-size: 0.14rem;
+    overflow: hidden;
 }
 .webtest_history_list_text h5{
     margin: 0;
     margin-left: 0.1rem;
+    margin-top: 0.1rem;
 
 }
 .webtest_history_list_text{

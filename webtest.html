@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web前端+技术研究群-旅行开始</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/webtest.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/bitbug_favicon.ico">
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+
+</head>
+<body>
+<div class="webtest" id="webtest">
+    <header>
+        <nav>
+            <span class='nav_header'><a href="index.html">首页</a></span>
+            <span class='nav_title'>在线答题开始</span>
+            <span class='nav_photo'><img src="img/photo.jpg" height="300" width="300" alt=""></span>
+        </nav>
+    </header>
+    <section>
+        <div class="webtest_secton" v-for='item in webtest'>
+            <h5>{{item.title}}</h5>
+            <div class="webtest_secton_list" v-for='(item,index) in item.select'>
+                 <input type="radio" :name="item.name" :value="item.value" :id="item.forId"  v-model='checkvalue[item.conunt]'><label :for="item.forId"></label>
+                 <span>{{item.content}}</span>
+            </div>
+        </div>
+    </section>
+    <section class='webtest_modal'>
+        <div class='webtest_modal_list'>
+            <h4>你 的 测 试 结 果</h4>
+            <div class="webtest_modal_list_true">恭喜你答对<span> {{truenum}} </span>题</div>
+            <div class="webtest_modal_list_timeout">用时：<span>{{timeout}}</span></div>
+            <div class="webtest_modal_list_false">
+                <p>失误的题目分别为:</p>
+                <span v-for='(item,index) in errlist'>{{errlist[index]}},</span>
+            </div>
+            <a href="##" @click='resolve' class='webtest_modal_list_look'>查看详情</a>
+            <span class='return' @click='modeHide'><a href="">X</a></span>
+        </div>
+    </section>
+    <section class='weblist_error'>
+        <header>
+            <nav>
+                <span class='nav_header'><a href="index.html">首页</a></span>
+                <span class='nav_title'>错误解析</span>
+                <span class='nav_photo'><img src="img/photo.jpg" height="300" width="300" alt=""></span>
+            </nav>
+        </header>
+        <section class='weblist_error_center'>
+            <div class="webtest_secton weblist_error_center_list" v-for='item in errtitle'>
+                <h5>{{item.title}}</h5>
+                <div class="webtest_secton_list" v-for='(item,index) in item.select'>
+                     <input disabled type="radio" :name="item.name" :value="item.value" :id="item.forId"  v-model='checkvalue[item.conunt]' ><label ></label>
+                     <span>{{item.content}}</span>
+                </div>
+                <div class='webtest_resolution'>
+                    <h6>正确答案：<span>{{item.trueTitle}}</span></h6>
+                    <div class='webtest_resolution_p'>解析：<p>{{item.resolution}}</p></div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="webtest_footer weblist_error_footer">
+                <span @click='upslide'>X</span>
+            </div>
+        </footer>
+    </section>
+    <footer>
+        <div class="webtest_footer">
+            <label for="">时间: <span class='Time'>00:00:00</span></label>
+            <input type="submit" value="提交" @click='submit'>
+        </div>
+    </footer>
+</div>
+</body>
+
+<script src="js/jquery.min.2.1.1.js"></script>
+<script src="js/webtest.js"></script>
+</html>

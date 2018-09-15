@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web前端+技术研究群-走进我们</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/webtest.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/bitbug_favicon.ico">
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+
+</head>
+<body>
+<div class="webtest present" id="webtest">
+    <header>
+        <nav>
+            <span class='nav_header'><a href="index.html">首页</a></span>
+            <span class='nav_title present_title'>成长历史</span>
+            <span class='nav_photo' @click='aside'><img src="img/photo.jpg" height="300" width="300" alt="" ></span>
+        </nav>
+        <aside class='webtest_aside'>
+            <ul>
+                <li v-for='(item,index) in present' @click='asideli(index,$event)'  :data-name='item.name'><a href="##" :class="{color:changeRed == index}"><span class='fa fa-calendar-minus-o'></span>&nbsp; {{item.name}} </a></li>
+            </ul>
+        </aside>
+        <section class='webtest_history'>
+            <ul>
+                <li v-for='item in history'>
+                    <div class="webtest_history_list" v-for='item in item.list'>
+                        <span><img :src="item.src" height="300" width="300" alt=""></span>
+                        <div class="webtest_history_list_text">
+                            <h5>{{item.time}}</h5>
+                            <p>{{item.content}}</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="present_mode"></div>
+    </header>
+
+
+</div>
+</body>
+
+<script src="js/jquery.min.2.1.1.js"></script>
+<script src="js/webtest.js"></script>
+</html>

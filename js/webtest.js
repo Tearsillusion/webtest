@@ -468,6 +468,7 @@ new Vue({
     $('.weblist_error_center').height(winHeight);
     $('.webtestIndex').height(winHeight);
     $('.webteststart').height(winHeight);
+    $('.present_mode').height(winHeight);
     timer=setInterval(function (){
         time++;
         var m=parseInt(time/3600)
@@ -494,8 +495,7 @@ new Vue({
                 if(selsectvalue[i]!=truevalue[i]){
 
                     this.errlist.push(i);
-                    // console.log(truevalue[i]);
-                    // console.log(selsectvalue[i]);
+
                     this.errtitle.push(this.webtest[i-1])
 
                     }
@@ -506,7 +506,7 @@ new Vue({
 
     },
     resolve() {
-        $('.weblist_error').slideDown();
+        $('.weblist_error').slideDown('slow');
 
     },
     upslide(){

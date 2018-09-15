@@ -475,7 +475,7 @@ a{
     width: 100%;
     font-size: 0;
     overflow: hidden;
-    margin-top: -0.05rem;
+    margin-bottom: 0;
 }
 .webtest_history_list span img{
     width: 100%;
@@ -496,6 +496,7 @@ a{
     background:white;
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
+    margin-top: 0;
 }
 .webtest_history_list_text p{
     margin-left: 0.1rem;

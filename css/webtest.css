@@ -99,7 +99,6 @@ a{
     display: block;
     font-size: 0.1rem;
     color: #aaa;
-    margin-top: 1.5rem!important;
 
 
 }
@@ -475,6 +474,7 @@ a{
     width: 100%;
     font-size: 0;
     overflow: hidden;
+    margin-top: -0.05rem;
 }
 .webtest_history_list span img{
     width: 100%;

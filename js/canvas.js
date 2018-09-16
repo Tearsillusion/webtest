@@ -1,10 +1,14 @@
 window.onload = function(){
             var canvas = document.getElementById('canvas'),  //获取canvas元素
                 context = canvas.getContext('2d'),  //获取画图环境，指明为2d
-                centerX = canvas.width/2,   //Canvas中心点x轴坐标
-                centerY = canvas.height/2,  //Canvas中心点y轴坐标
                 rad = Math.PI*2/100, //将360度分成100份，那么每一份就是rad度
-                speed = 0.3; //加载的快慢就靠它了
+                speed = 0.3, //加载的快慢就靠它了
+                centerX = 0,
+                centerY = 0;
+                canvas.width = document.documentElement.clientWidth;
+                canvas.height = document.documentElement.clientHeight;
+                centerX = canvas.width/2;   //Canvas中心点x轴坐标
+                centerY = canvas.height/2;  //Canvas中心点y轴坐标
             //绘制蓝色外圈
             function blueCircle(n){
                 context.save();
@@ -45,8 +49,8 @@ window.onload = function(){
                 blueCircle(speed);
                 if(speed > 100){
                  speed = 100;
-                  $('.webtestIndex').slideUp();
-                  $('.webteststart').slideDown();
+                  // $('.webtestIndex').slideUp();
+                  // $('.webteststart').slideDown();
                 }
                 speed += 0.3;
 

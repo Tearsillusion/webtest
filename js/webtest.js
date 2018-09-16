@@ -410,54 +410,65 @@ new Vue({
         {
             list:[
                 {
-                    src:'img/photo.jpg',
+                    src:'img/dudu.jpg',
                     time:'后台——嘟嘟',
+                    motto:'',
                     content:'集帅气和天才于一身的全栈大佬,精通go,java,js等等'
                 },
                 {
-                    src:'img/photo.jpg',
-                    time:'前端——啵啵',
+                    src:'img/yaya.jpg',
+                    time:'前端——傻丫',
+                     motto:'',
+                    content:'一个超阔爱的小美女,精通vue,爱吃爱玩,爱撒娇'
+                },
+                {
+                    src:'img/bobo.jpg',
+                    time:'前端——啵啵(啵小啵)',
+                     motto:'座右铭：今天我要用我的实力，来证明我的弱小。',
                     content:'一个隐形大佬,精通前端各种类库,框架,当然也是后台的忠实爱好者'
                 },
                 {
                     src:'img/photo.jpg',
                     time:'前端——胡胡',
+                     motto:'座右铭：我特么for循环到哪了！',
                     content:'一个集可爱与搞笑于一身的jq大佬,精通前端各类框架与类库,别忘了他那只逗比的狗。'
                 },
+
                 {
-                    src:'img/photo.jpg',
-                    time:'前端——傻丫',
-                    content:'一个超阔爱的小美女,精通vue,爱吃爱玩,爱撒娇'
-                },
-                {
-                    src:'img/photo.jpg',
+                    src:'img/ersi.jpg',
                     time:'前端——24',
+                    motto:'座右铭：我做错了什么？',
                     content:'当然他已经25了,精通vue node.js,帅气前端大佬'
                 },
                 {
-                    src:'img/photo.jpg',
-                    time:'后台——梦梦',
+                    src:'img/mengmeng.jpg',
+                    time:'后台——梦梦(九月)',
+                     motto:'',
                     content:'别以为他是个妹子,然而,并不是,精通java,王者段位荣耀王者'
                 },
                 {
                     src:'img/momo.jpg',
                     time:'前端——沫沫',
+                     motto:'',
                     content:'群里最会把妹的男人,一不小心又被他拐走一个妹子,当然也是绝对的实力派,精通前端各类框架'
                 },
                 {
                     src:'img/buhui.jpg',
-                    time:'前端——沫沫',
+                    time:'前端——不悔妹妹',
+                     motto:'座右铭：即使生活欺骗了你，你也要笑着走下去.自己的人生自己定格就好，你所谓的命运，只是你自欺欺人的借口。',
                     content:'看图就知道,又被秀了一把,没错就是沫沫女朋友,也是一个正在入坑的妹子,听说舞蹈跳的不错呦！'
                 },
                 {
                     src:'img/jianjian.jpg',
                     time:'前端——贱贱',
+                    motto:'座右铭：天空阴霾，隐约雷鸣，但盼风雨来，留君在此地。',
                     content:'好吧,人如其名,刻苦学习,群里最能逼逼的,最小的男孩'
                 },
                 {
                     src:'img/sheji.jpg',
-                    time:'前端——小设计(七尺花烽烟)',
-                    content:'勇者百战功成，智者千虑决胜。问：为何智勇双全者万劫不复？好吧，这是他的座右铭，也是我们群里集帅气与实力以一身的唯一男设计'
+                    time:'前端——小设计(七尺画烽烟)',
+                    motto:'座右铭：是我做的但我不会做，不代表我以后不会做。',
+                    content:'没错，这就是我们群里集帅气与实力以一身的唯一男设计'
                 },
             ]
         },

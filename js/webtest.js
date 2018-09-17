@@ -444,7 +444,7 @@ new Vue({
                     src:'img/mengmeng.jpg',
                     time:'后台——梦梦(九月)',
                      motto:'座右铭：高峰只对攀登它的人来说才真正有意义',
-                    content:'别以为他是个妹子,然而,并不是,精通java,王者段位荣耀王者'
+                    content:'别看她是个妹子,精通java,王者段位荣耀王者'
                 },
                 {
                     src:'img/momo.jpg',

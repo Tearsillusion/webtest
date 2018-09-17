@@ -49,8 +49,8 @@ window.onload = function(){
                 blueCircle(speed);
                 if(speed > 100){
                  speed = 100;
-                  // $('.webtestIndex').slideUp();
-                  // $('.webteststart').slideDown();
+                  $('.webtestIndex').slideUp();
+                  $('.webteststart').slideDown();
                 }
                 speed += 0.3;
 

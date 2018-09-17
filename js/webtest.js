@@ -3,16 +3,16 @@ new Vue({
   data: {
     webtest:[
         {
-            title:'1.制作级联菜单功能时调用的是下拉列表框的（）事件。',
+            title:'1.假设今天是2006年4月1日星期六,请问以下javascript代码输出结果是()var time = new Date()document.write(time.getDate( ));',
             resolution:'这么简单都不会',
-            trueTitle:'A',
+            trueTitle:'C',
             select:[
                 {
                     name:'select1',
                     forId:'A1',
                     value:1,
                     conunt:1,
-                    content:'A. onChange '
+                    content:'A. 2006 '
 
 
                 },
@@ -21,7 +21,7 @@ new Vue({
                     forId:'A2',
                     value:2,
                     conunt:1,
-                    content:'B. onFocus '
+                    content:'B. 4 '
 
                 },
                 {
@@ -29,7 +29,7 @@ new Vue({
                     forId:'A3',
                     value:3,
                     conunt:1,
-                    content:'C. selected '
+                    content:'C. 1 '
 
                 },
                 {
@@ -37,14 +37,14 @@ new Vue({
                     forId:'A4',
                     value:4,
                     conunt:1,
-                    content:'D. onClick '
+                    content:'D. 6 '
 
                 }
             ]
 
         },
         {
-            title:'2.下列属性哪一个能够实现层的隐藏?（）',
+            title:'2.在HTML文档对象模型(DOM)中,history对象的(   )方法用于加载历史列表中的下一个URL页面。',
             resolution:'这么简单都不会',
             trueTitle:'C',
             select:[
@@ -53,7 +53,7 @@ new Vue({
                     forId:'B5',
                     value:1,
                     conunt:2,
-                    content:'A. display:fals '
+                    content:'A. next( ) '
 
                 },
                 {
@@ -61,36 +61,36 @@ new Vue({
                     forId:'B6',
                     value:2,
                     conunt:2,
-                    content:'B. display:hidden '
+                    content:'B. history( ) '
                 },
                 {
                     name:'select2',
                     forId:'B7',
                     value:3,
                     conunt:2,
-                    content:'C. display:none '
+                    content:'C. forword( )'
                 },
                 {
                     name:'select2',
                     forId:'B8',
                     value:4,
                     conunt:2,
-                    content:'D. display:” ”'
+                    content:'D. go(-1)'
                 }
             ]
 
         },
         {
-            title:'3.下列哪一个选项不属于document对象的方法?（ ）',
+            title:'3.关于bind( )方法与unbind( )方法说法正确的是(    )',
             resolution:'这么简单都不会',
-            trueTitle:'D',
+            trueTitle:'C',
             select:[
                 {
                     name:'select3',
                     forId:'B9',
                     value:1,
                     conunt:3,
-                    content:'A. focus() '
+                    content:'A. bind( )方法可用来移除单个或多个事件'
 
                 },
                 {
@@ -98,36 +98,36 @@ new Vue({
                     forId:'B10',
                     value:2,
                     conunt:3,
-                    content:'B. getElementById() '
+                    content:'B. unbind( )方法可以同时移除多个事件，但不能移除单个事件'
                 },
                 {
                     name:'select3',
                     forId:'B11',
                     value:3,
                     conunt:3,
-                    content:'C. getElementsByName() '
+                    content:'C. 使用bind( )方法可同时绑定鼠标事件和键盘事件 '
                 },
                 {
                     name:'select3',
                     forId:'B12',
                     value:4,
                     conunt:3,
-                    content:'D. bgColor() '
+                    content:'D. unbind( )方法不是与bind( )方法对应的方法'
                 }
             ]
 
         },
         {
-            title:'4.以下有关pixelTop属性与top属性的说法正确的是。( ) ',
+            title:'4.在JQuery中，课用于获取和设置元素属性值的方法是( ) ',
             resolution:'这么简单都不会',
-            trueTitle:'D',
+            trueTitle:'B',
             select:[
                 {
                     name:'select4',
                     forId:'B13',
                     value:1,
                     conunt:4,
-                    content:'A. 都是Location对象的属性'
+                    content:'A. val( )'
 
                 },
                 {
@@ -135,36 +135,36 @@ new Vue({
                     forId:'B14',
                     value:2,
                     conunt:4,
-                    content:'B. 使用时返回值都是字符串'
+                    content:'B. attr( )'
                 },
                 {
                     name:'select4',
                     forId:'B15',
                     value:3,
                     conunt:4,
-                    content:'C. 都是返回以像素为单位的数值'
+                    content:'C. removeAttr( )'
                 },
                 {
                     name:'select4',
                     forId:'B16',
                     value:4,
                     conunt:4,
-                    content:'D. 以上都不对'
+                    content:'D. css( )'
                 }
             ]
 
         },
         {
-            title:'5.从1000000000000个书中选择最小的20个数，用以下那种排序算法比较方便？',
-            resolution:'堆排序适合处理大量数据的排序问题http://www.jianshu.com/p/7d037c332a9d',
-            trueTitle:'D',
+            title:'5.对字符串str="welcome to china"进行下列操作处理,描述结果正确的是(   )',
+            resolution:'str.substring(1,5)不包含第5个,str.indexOf("come",4)从第四个开始寻找,str.toUpperCase( )转换成大写。',
+            trueTitle:'B',
             select:[
                 {
                     name:'select5',
                     forId:'B17',
                     value:1,
                     conunt:5,
-                    content:'A. 归并排序'
+                    content:'A. str.substring(1,5)的返回值是"elcom"'
 
                 },
                 {
@@ -172,36 +172,36 @@ new Vue({
                     forId:'B18',
                     value:2,
                     conunt:5,
-                    content:'B. 快速排序'
+                    content:'B. str.length的返回值16'
                 },
                 {
                     name:'select5',
                     forId:'B19',
                     value:3,
                     conunt:5,
-                    content:'C. 插入排序'
+                    content:'C. str.indexOf("come",4)的返回值为4'
                 },
                 {
                     name:'select5',
                     forId:'B20',
                     value:4,
                     conunt:5,
-                    content:'D. 堆排序'
+                    content:'D. str.toUpperCase( )的返回值是"Welcome To China"'
                 }
             ]
 
         },
         {
-            title:'6.JavaScript中window对象的子对象不包含以下哪个对象？',
-            resolution:'window的主对象主要有如下几个：window、self、window.self三者是等价的。document   frames   history  location   navigator   screen',
-            trueTitle:'D',
+            title:'6.腾讯QQ号从10000开始，目前最高位10位，(   )可以匹配QQ号',
+            resolution:'',
+            trueTitle:'B',
             select:[
                 {
                     name:'select6',
                     forId:'B21',
                     value:1,
                     conunt:6,
-                    content:'A. document'
+                    content:'A. /^[1-9][0-9]{4,10}$/'
 
                 },
                 {
@@ -209,36 +209,36 @@ new Vue({
                     forId:'B22',
                     value:2,
                     conunt:6,
-                    content:'B. self'
+                    content:'B. /^[1-9][0-9]{4,9}$/'
                 },
                 {
                     name:'select6',
                     forId:'B23',
                     value:3,
                     conunt:6,
-                    content:'C. history'
+                    content:'C. /^\d{5,10}$/'
                 },
                 {
                     name:'select6',
                     forId:'B24',
                     value:4,
                     conunt:6,
-                    content:'D. message'
+                    content:'D. /^\d[5,10]$/'
                 }
             ]
 
         },
         {
-            title:'7.下面不属于TCP协议拥塞控制部分的是（）',
-            resolution:' TCP的拥塞控制由4个核心算法组成：“快速重传 ”（Fast Retransmit）、“拥塞避免”（Congestion voidance）、 “慢启动”（Slow Start）“快速恢复”（Fast Recovery',
-            trueTitle:'B',
+            title:'7.对于Math对象常用方法，以下描述不正确的是(   )',
+            resolution:'D:0-1之间',
+            trueTitle:'D',
             select:[
                 {
                     name:'select7',
                     forId:'B25',
                     value:1,
                     conunt:7,
-                    content:'A. 快速重传 '
+                    content:'A. ceil( ) 向上舍入 '
 
                 },
                 {
@@ -246,28 +246,28 @@ new Vue({
                     forId:'B26',
                     value:2,
                     conunt:7,
-                    content:'B. 带外数据'
+                    content:'B. floor( )向下舍入'
                 },
                 {
                     name:'select7',
                     forId:'B27',
                     value:3,
                     conunt:7,
-                    content:'C. 慢启动'
+                    content:'C. round( )四舍五入'
                 },
                 {
                     name:'select7',
                     forId:'B28',
                     value:4,
                     conunt:7,
-                    content:'D. 快速恢复'
+                    content:'D. random( )返回0~1中的随机数，包括0和1'
                 }
             ]
 
         },
         {
-            title:'8.var arr = [] ;typeof arr 的结果是：',
-            resolution:'5种简单数据类型（也称基本数据类型）：Undefined、Null、Boolean、Number、String1种复杂数据类型：Object（基本上除了上述5种，其余都是Object',
+            title:'8.在Jquery中，下列关于DOM操作的说法错误的是(   )',
+            resolution:'',
             trueTitle:'C',
             select:[
                 {
@@ -275,7 +275,7 @@ new Vue({
                     forId:'B29',
                     value:1,
                     conunt:8,
-                    content:'A. array'
+                    content:'A. $(A).append(B)表示将B追加到A中'
 
                 },
                 {
@@ -283,36 +283,36 @@ new Vue({
                     forId:'B30',
                     value:2,
                     conunt:8,
-                    content:'B. function'
+                    content:'B. $(A).appendTo(B)表示把A追加到B中'
                 },
                 {
                     name:'select8',
                     forId:'B31',
                     value:3,
                     conunt:8,
-                    content:'C. object'
+                    content:'C. $(A).after(B)表示将A插入到B以后 '
                 },
                 {
                     name:'select8',
                     forId:'B32',
                     value:4,
                     conunt:8,
-                    content:'D. undefined'
+                    content:'D. $(A).insertAfter(B)表示将A插入到B以后'
                 }
             ]
 
         },
         {
-            title:'9.一个栈的入栈顺序是1,2,3,4,5，则栈的不可能输出顺序是：',
-            resolution:'A.先进先出，12345按顺序入栈，在分别出栈 B.先进后出，12345按顺序入栈，在分别出栈；C.先进后出，1不可能在2之前先出栈 D.先进后出，1234入栈，4出栈，5入栈，5321出栈',
-            trueTitle:'D',
+            title:'9.盒子的Margin为20px border为1px,padding为10px,content宽202px, 高为50px求标准IE盒子模型的，盒子的实际大小的高为(    )',
+            resolution:'在标准模式下，一个块的总宽度= width + margin(左右) + padding(左右) + border(左右);在怪异模式下，一个块的总宽度= width + margin(左右)（即width已经包含了padding和border值）',
+            trueTitle:'A',
             select:[
                 {
                     name:'select9',
                     forId:'B33',
                     value:1,
                     conunt:9,
-                    content:'A. 12345'
+                    content:'A. 50px'
 
                 },
                 {
@@ -320,36 +320,36 @@ new Vue({
                     forId:'B34',
                     value:2,
                     conunt:9,
-                    content:'B. 54321'
+                    content:'B. 70px '
                 },
                 {
                     name:'select9',
                     forId:'B35',
                     value:3,
                     conunt:9,
-                    content:'C. 43512'
+                    content:'C. 72px'
                 },
                 {
                     name:'select9',
                     forId:'B36',
                     value:4,
                     conunt:9,
-                    content:'D. 45321'
+                    content:'D. 52px '
                 }
             ]
 
         },
         {
-            title:'10.下列那些不是vue的优点？',
-            resolution:'独立开发。开发人员可以专注于业务逻辑和数据的开发（ViewModel），设计人员可以专注于页面设计，使用Expression Blend可以很容易设计界面并生成xml代码。',
-            trueTitle:'C',
+            title:'10.下面那个不是vuex的属性？',
+            resolution:'参考：https://www.jianshu.com/p/b1dd80f4d542',
+            trueTitle:'D',
             select:[
                 {
                     name:'select10',
                     forId:'B37',
                     value:1,
                     conunt:10,
-                    content:'A. 低耦合。'
+                    content:'A. State'
 
                 },
                 {
@@ -357,21 +357,21 @@ new Vue({
                     forId:'B38',
                     value:2,
                     conunt:10,
-                    content:'B. 可重用性'
+                    content:'B. Getter'
                 },
                 {
                     name:'select10',
                     forId:'B39',
                     value:3,
                     conunt:10,
-                    content:'C. 不可独立开发'
+                    content:'C. Mutation '
                 },
                 {
                     name:'select10',
                     forId:'B40',
                     value:4,
                     conunt:10,
-                    content:'D. 可测试'
+                    content:'D. Actions'
                 }
             ]
 
@@ -380,7 +380,7 @@ new Vue({
 
     ],
     checkvalue:[0],
-    truevalue:[0,1,3,4,4,4,4,2,3,4,3],
+    truevalue:[0,3,3,3,2,2,2,4,3,1,4],
     errnum:0,
     errlist:[],
     truenum:0,

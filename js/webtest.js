@@ -412,13 +412,13 @@ new Vue({
                 {
                     src:'img/dudu.jpg',
                     time:'后台——嘟嘟',
-                    motto:'',
+                    motto:'群主今日一如既往地菜',
                     content:'集帅气和天才于一身的全栈大佬,精通go,java,js等等'
                 },
                 {
                     src:'img/yaya.jpg',
                     time:'前端——傻丫',
-                     motto:'',
+                     motto:'明日群主将一如既往地菜',
                     content:'一个超阔爱的小美女,精通vue,爱吃爱玩,爱撒娇'
                 },
                 {
